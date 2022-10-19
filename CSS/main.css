@@ -1,0 +1,20 @@
+.main__ImgeActivity {
+    display: none;
+}
+
+.main__ImgeNonActivity {
+    max-width: 100%;
+}
+
+.main__Button {
+    background-color: rgb(240, 128, 215);
+    outline: 10px dotted rgb(148, 35, 97);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main__paragraph {
+    padding: 10px;
+    box-shadow: inset 0px 0px 20px 0px #DB2C1C;
+}

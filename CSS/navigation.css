@@ -1,0 +1,28 @@
+.navigation__list {
+    border-bottom: 2px solid gold;
+    border-top: 2px solid gold;
+    text-align: center;
+}
+
+.navigation__listItem {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.navigation__link {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation__link:focus {
+    outline: 1px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: currentColor;
+    border-bottom: 1px solid;
+    outline: none;
+}

@@ -1,0 +1,21 @@
+.section {
+    background-color: rgb(233, 230, 227);
+}
+
+.section__header {
+    text-shadow: 1px 3px 5px #000000;
+}
+
+.section__imge {
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 5px 5px 21px 0px #204AC9;
+}
+
+.section__span {
+    color: rgb(204, 109, 68);
+}
+
+.section__headerSmall {
+    color: chocolate;
+}
