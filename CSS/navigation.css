@@ -1,6 +1,6 @@
 .navigation__list {
-    border-bottom: 2px solid gold;
-    border-top: 2px solid gold;
+    border-bottom: 10px ridge gold;
+    border-top: 10px ridge gold;
     text-align: center;
 }
 
