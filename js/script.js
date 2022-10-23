@@ -13,13 +13,7 @@ mainButton.addEventListener("click", () => {
     mainImgeActivity.classList.toggle("main__ImgeActivity");
     mainImgeActivity.classList.toggle("main__ImgeNonActivity");
 
-    if (mainImgeActivity.classList.contains("main__ImgeActivity")) {
-        highFiveButton.innerText = "Przybij piątkę";
-    }
-
-    else {
-        highFiveButton.innerText = "Nie przybijaj piątki";
-    }
+    highFiveButton.innerText = mainImgeActivity.classList.contains("main__ImgeActivity") ? "Przybij piątkę" : "Nie przybijaj piątki" ;
 
 });
 }
