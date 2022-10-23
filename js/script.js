@@ -1,7 +1,12 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    }
 
-let mainButton = document.querySelector(".main__Button");
-let mainImgeActivity = document.querySelector(".main__ImgeActivity");
+    welcome();
+    
+let mainButton = document.querySelector(".js-mainButton");
+let mainImgeActivity = document.querySelector(".js-mainImageActivity");
 let highFiveButton = document.querySelector(".js-HighFiveButton");
 
 mainButton.addEventListener("click", () => {
@@ -17,3 +22,4 @@ mainButton.addEventListener("click", () => {
     }
 
 });
+}
