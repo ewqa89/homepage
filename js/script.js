@@ -4,13 +4,13 @@
     }
 
     const toggleImageActivityClick = () => {
-        const mainImgeActivity = document.querySelector(".js-mainImageActivity");
+        const mainImageActivity = document.querySelector(".js-mainImageActivity");
         const highFiveButton = document.querySelector(".js-HighFiveButton");
 
-        mainImgeActivity.classList.toggle("main__ImgeActivity");
-        mainImgeActivity.classList.toggle("main__ImgeNonActivity");
+        mainImageActivity.classList.toggle("main__ImgeActivity");
+        mainImageActivity.classList.toggle("main__ImgeNonActivity");
 
-        highFiveButton.innerText = mainImgeActivity.classList.contains("main__ImgeActivity") ? "Przybij piątkę" : "Nie przybijaj piątki";
+        highFiveButton.innerText = mainImageActivity.classList.contains("main__ImgeActivity") ? "Przybij piątkę" : "Nie przybijaj piątki";
     };
 
     const init = () => {
